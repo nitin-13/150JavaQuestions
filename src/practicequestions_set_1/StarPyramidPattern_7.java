@@ -9,8 +9,14 @@ public class StarPyramidPattern_7 {
         System.out.println("Enter the number of rows: ");
         int rows = sc.nextInt();
 
-        for (int i = 1; i <= rows; i++) { //Rows
-
+        for (int i = 1; i <= rows; i++) {//Rows
+            for (int j = rows - i; j >= 1; j--) {
+                System.out.print(" ");
+            }
+            for (int k = 1; k <= i; k++) {
+                System.out.print("* ");
+            }
+            System.out.println();
         }
 
     }
