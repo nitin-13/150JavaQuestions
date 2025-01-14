@@ -1,4 +1,4 @@
-package practicequestions150;
+package practicequestions_set_1;
 
 public class SumOfElementsArray_16 {
     public static void main(String[] args) {

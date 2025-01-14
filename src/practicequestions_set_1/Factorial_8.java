@@ -1,4 +1,4 @@
-package practicequestions150;
+package practicequestions_set_1;
 
 import java.util.Scanner;
 

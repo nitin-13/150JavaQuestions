@@ -1,4 +1,4 @@
-package practicequestions150;
+package practicequestions_set_1;
 
 import java.util.Scanner;
 
@@ -12,7 +12,7 @@ public class FibonacciSeries_5 {
 
         int n1 = 0, n2 = 1, n3;
 
-        System.out.print("Fibonacci Series: "+n1 + " " + n2 + " ");
+        System.out.print("Fibonacci Series: " + n1 + " " + n2 + " ");
 
         for (int i = 2; i < n; i++) {
             n3 = n1 + n2;

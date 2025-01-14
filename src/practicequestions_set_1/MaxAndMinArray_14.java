@@ -1,7 +1,6 @@
-package practicequestions150;
+package practicequestions_set_1;
 
 import java.util.Arrays;
-import java.util.Scanner;
 
 public class MaxAndMinArray_14 {
     public static void main(String[] args) {

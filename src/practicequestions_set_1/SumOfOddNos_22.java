@@ -1,22 +1,22 @@
-package practicequestions150;
+package practicequestions_set_1;
 
 import java.util.Scanner;
 
-public class SumOfEvenNos_21 {
+public class SumOfOddNos_22 {
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
 
-        System.out.println("Enter the range to find sum of even nos. -> ");
+        System.out.println("Enter the range to find sum of odd nos. -> ");
         int start = in.nextInt();
         int end = in.nextInt();
 
-        System.out.println("Sum of even nos. between " + start + " and " + end + " is -> " + evenSum(start, end));
+        System.out.println("Sum of odd nos. between " + start + " and " + end + " is -> " + oddSum(start, end));
     }
 
-    static int evenSum(int start, int end) {
+    static int oddSum(int start, int end) {
         int sum = 0;
         for (int i = start; i <= end; i++) {
-            if (i % 2 == 0) {
+            if (i % 2 != 0) {
                 sum += i;
             }
         }

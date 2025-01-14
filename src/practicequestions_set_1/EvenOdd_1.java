@@ -1,4 +1,4 @@
-package practicequestions150;
+package practicequestions_set_1;
 
 import java.util.Scanner;
 
@@ -10,10 +10,9 @@ public class EvenOdd_1 {
         System.out.println("Enter a number: ");
         int num = sc.nextInt();
 
-        if(num % 2 == 0) {
+        if (num % 2 == 0) {
             System.out.println("Even number");
-        }
-        else{
+        } else {
             System.out.println("Odd number");
         }
     }
