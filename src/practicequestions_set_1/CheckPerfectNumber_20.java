@@ -16,7 +16,7 @@ public class CheckPerfectNumber_20 {
         }
     }
 
-    static boolean isPerfect(int num) {
+    public static boolean isPerfect(int num) {
 
         int sum = 0;
 
