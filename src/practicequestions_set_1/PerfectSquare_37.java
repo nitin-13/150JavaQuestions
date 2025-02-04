@@ -16,12 +16,12 @@ public class PerfectSquare_37 {
         }
     }
 
-    private static boolean isPerfectSquare(int num) {
+    public static boolean isPerfectSquare(int num) {
         int sqRT = 0;
         if (num >= 0) {
             sqRT = (int) Math.sqrt(num);
 
         }
-        return sqRT == (int) sqRT;
+        return num == sqRT * sqRT;
     }
 }
