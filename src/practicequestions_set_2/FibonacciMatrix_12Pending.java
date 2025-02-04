@@ -1,7 +1,7 @@
 package practicequestions_set_2;
 
 
-public class FibonacciMatrix_12 {
+public class FibonacciMatrix_12Pending {
     public static void main(String[] args) {
 
         int size = 3;
